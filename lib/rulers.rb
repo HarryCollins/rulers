@@ -6,7 +6,7 @@ module Rulers
         def call(env)
             `echo debug > debug.txt`;
             [200, {'Content-Type' => 'text/html'},
-            ['Hello from Ruby on Rulers!' & [1,2,3].sum]]
+            ['Hello from Ruby on Rulers!']]
         end
     end
 end
